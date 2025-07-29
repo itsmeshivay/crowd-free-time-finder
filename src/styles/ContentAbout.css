@@ -1,0 +1,117 @@
+.about-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0d6efd;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.about-footer {
+  margin-top: 40px;
+  font-style: italic;
+  color: #555;
+}
+.tech-used {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tech-used h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+  font-weight: 600;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tech-item {
+  background: rgb(155, 53, 53);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tech-item:hover {
+  background: #007bff;
+  color: white;
+  transform: translateY(-5px);
+}
+.tech-used {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.tech-used h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+  font-weight: 600;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tech-item {
+  background: rgb(5, 150, 169);
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-weight: 500;
+  transform: translateY(50px);
+  opacity: 0;
+  animation: fadeSlideUp 0.6s ease forwards;
+}
+
+/* Animation */
+@keyframes fadeSlideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Delay for staggered effect */
+.tech-item:nth-child(1) { animation-delay: 0.1s; }
+.tech-item:nth-child(2) { animation-delay: 0.2s; }
+.tech-item:nth-child(3) { animation-delay: 0.3s; }
+.tech-item:nth-child(4) { animation-delay: 0.4s; }
+.tech-item:nth-child(5) { animation-delay: 0.5s; }
+.tech-item:nth-child(6) { animation-delay: 0.6s; }
+.tech-item:nth-child(7) { animation-delay: 0.7s; }
+.tech-item:nth-child(8) { animation-delay: 0.8s; }
+
+.tech-item:hover {
+  background: #007bff;
+  color: white;
+  transform: translateY(-5px);
+}

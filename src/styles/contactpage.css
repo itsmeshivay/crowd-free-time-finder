@@ -1,0 +1,151 @@
+.contact-container {
+display: flex;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  margin-top: 3%;
+  background: url("https://img.freepik.com/free-vector/abstract-vector-wave-lines-black-background-modern-futuristic-technology-theme_474888-6982.jpg?semt=ais_hybrid&w=740") center/cover no-repeat;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+}
+
+.contact-left, .contact-right {
+  flex: 1;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+/* LEFT SIDE */
+.contact-left h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  max-width: 400px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.social-icons i {
+  font-size: 1.8rem;
+  margin-right: 20px;
+  cursor: pointer;
+  color: antiquewhite;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+}
+
+/* Specific brand colors on hover */
+.social-icons .fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.social-icons .fa-facebook-f:hover {
+  color: #1877F2;
+}
+
+.social-icons .fa-google:hover {
+  color: #DB4437;
+}
+
+.social-icons .fa-instagram:hover {
+  color: #E1306C;
+}
+
+
+/* RIGHT SIDE */
+.contact-right {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.contact-right h2 {
+  margin-bottom: 10px;
+}
+
+.contact-right p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  flex: 1;
+}
+
+form textarea {
+  height: 100px;
+  resize: none;
+}
+
+form button {
+  background-color: #0fa958;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 🔁 Responsive Design */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-left, .contact-right {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-left h1 {
+    font-size: 2rem;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  .input-row input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-left, .contact-right {
+    padding: 30px 15px;
+  }
+
+  form button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .social-icons i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+}

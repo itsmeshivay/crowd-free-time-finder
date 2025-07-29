@@ -1,0 +1,173 @@
+// src/data/statesData.js
+
+export const statesData = [
+  {
+    name: "Andhra Pradesh",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/500px-Tirumala_090615.jpg",
+    description: "Andhra Pradesh is known for its rich cultural heritage and beautiful beaches.",
+    wiki: "https://en.wikipedia.org/wiki/Andhra_Pradesh",
+  },
+  {
+    name: "Arunachal Pradesh",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Golden_Pagoda_Namsai_Arunachal_Pradesh.jpg/330px-Golden_Pagoda_Namsai_Arunachal_Pradesh.jpg",
+    description: "Arunachal Pradesh is famous for its stunning landscapes and diverse cultures.",
+    wiki: "https://en.wikipedia.org/wiki/Arunachal_Pradesh",
+  },
+  {
+    name: "Assam",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/500px-Kamakhya_Temple_-_DEV_8829.jpg",
+    description: "Assam is known for its tea plantations and rich biodiversity.",
+    wiki: "https://en.wikipedia.org/wiki/Assam",
+  },
+  {
+    name: "Bihar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg/500px-Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg",
+    description: "Bihar is known for its historical significance and ancient universities.",
+    wiki: "https://en.wikipedia.org/wiki/Bihar",
+  },
+  {
+    name: "Chhattisgarh",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/The_Chitrakote_Falls.jpg/1024px-The_Chitrakote_Falls.jpg",
+    description: "Chhattisgarh is famous for its forests, waterfalls, and tribal culture.",
+    wiki: "https://en.wikipedia.org/wiki/Chhattisgarh",
+  },
+  {
+    name: "Goa",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/BeachFun.jpg/500px-BeachFun.jpg",
+    description: "Goa is known for its beautiful beaches and vibrant nightlife.",
+    wiki: "https://en.wikipedia.org/wiki/Goa",
+  },
+  {
+    name: "Gujarat",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rani_ki_vav_02.jpg/500px-Rani_ki_vav_02.jpg",
+    description: "Gujarat is famous for its diverse culture, wildlife, and the Rann of Kutch.",
+    wiki: "https://en.wikipedia.org/wiki/Gujarat",
+  },
+  {
+    name: "Haryana",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Cyber_City_View.jpg/500px-Cyber_City_View.jpg",
+    description: "Haryana is known for its agriculture and vibrant folk culture.",
+    wiki: "https://en.wikipedia.org/wiki/Haryana",
+  },
+  {
+    name: "Himachal Pradesh",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/BaijNath.jpg/330px-BaijNath.jpg",
+    description: "Himachal Pradesh is famous for its scenic mountains and hill stations.",
+    wiki: "https://en.wikipedia.org/wiki/Himachal_Pradesh",
+  },
+  {
+    name: "Jharkhand",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Panchet_Dam_%28DVC%29_Dhanbad.jpg/330px-Panchet_Dam_%28DVC%29_Dhanbad.jpg",
+    description: "Jharkhand is known for its mineral resources and lush forests.",
+    wiki: "https://en.wikipedia.org/wiki/Jharkhand",
+  },
+  {
+    name: "Karnataka",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hampi_virupaksha_temple.jpg/500px-Hampi_virupaksha_temple.jpg",
+    description: "Karnataka is famous for its IT industry and rich cultural heritage.",
+    wiki: "https://en.wikipedia.org/wiki/Karnataka",
+  },
+  {
+    name: "Kerala",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Boathouse_%287063399547%29.jpg/500px-Boathouse_%287063399547%29.jpg",
+    description: "Kerala is known for its backwaters, greenery, and spices.",
+    wiki: "https://en.wikipedia.org/wiki/Kerala",
+  },
+  {
+    name: "Madhya Pradesh",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Shri_Mahakaleshwar_Temple_Ujjain_-_panoramio_%284%29.jpg/500px-Shri_Mahakaleshwar_Temple_Ujjain_-_panoramio_%284%29.jpg",
+    description: "Madhya Pradesh is known for its historical sites and national parks.",
+    wiki: "https://en.wikipedia.org/wiki/Madhya_Pradesh",
+  },
+  {
+    name: "Maharashtra",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cave_26%2C_Ajanta.jpg/500px-Cave_26%2C_Ajanta.jpg",
+    description: "Maharashtra is known for Mumbai, Bollywood, and the Gateway of India.",
+    wiki: "https://en.wikipedia.org/wiki/Maharashtra",
+  },
+  {
+    name: "Manipur",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_of_God_Pakhangba_of_Sanamahi_religion_inside_the_Kangla_Fort%2C_Imphal_West%2C_Manipur.jpg/500px-Temple_of_God_Pakhangba_of_Sanamahi_religion_inside_the_Kangla_Fort%2C_Imphal_West%2C_Manipur.jpg",
+    description: "Manipur is famous for its classical dance and rich traditions.",
+    wiki: "https://en.wikipedia.org/wiki/Manipur",
+  },
+  {
+    name: "Meghalaya",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Noakalikai_falls_1480244029215.jpg/500px-Noakalikai_falls_1480244029215.jpg",
+    description: "Meghalaya is known for its stunning landscapes and living root bridges.",
+    wiki: "https://en.wikipedia.org/wiki/Meghalaya",
+  },
+  {
+    name: "Mizoram",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Solomon_Temple_Aizawl_2.jpg/500px-Solomon_Temple_Aizawl_2.jpg",
+    description: "Mizoram is famous for its hills, forests, and vibrant culture.",
+    wiki: "https://en.wikipedia.org/wiki/Mizoram",
+  },
+  {
+    name: "Nagaland",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Kohima_24_July_2021.jpeg/500px-Kohima_24_July_2021.jpeg",
+    description: "Nagaland is known for its rich tribal culture and festivals.",
+    wiki: "https://en.wikipedia.org/wiki/Nagaland",
+  },
+  {
+    name: "Odisha",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Puri_Ratha_Yatra.jpg/330px-Puri_Ratha_Yatra.jpg",
+    description: "Odisha is famous for its temples, beaches, and classical dance forms.",
+    wiki: "https://en.wikipedia.org/wiki/Odisha",
+  },
+  {
+    name: "Punjab",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Punjab_map_%28topographic%29_with_cities.png/500px-Punjab_map_%28topographic%29_with_cities.png",
+    description: "Punjab is known for its agriculture, culture, and the Golden Temple.",
+    wiki: "https://en.wikipedia.org/wiki/Punjab",
+  },
+  {
+    name: "Rajasthan",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thar_Khuri.jpg/500px-Thar_Khuri.jpg",
+    description: "Rajasthan is famous for its palaces, forts, and desert culture.",
+    wiki: "https://en.wikipedia.org/wiki/Rajasthan",
+  },
+  {
+    name: "Sikkim",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Buddha_statue_at_Buddha_Park_of_Ravangla%2C_Sikkim%2C_India_%281%29.jpg/330px-Buddha_statue_at_Buddha_Park_of_Ravangla%2C_Sikkim%2C_India_%281%29.jpg" ,
+    description: "Sikkim is known for its stunning mountains and biodiversity.",
+    wiki: "https://en.wikipedia.org/wiki/Sikkim",
+  },
+  {
+    name: "Tamil Nadu",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mamallapuram_view.jpg/500px-Mamallapuram_view.jpg",
+    description: "Tamil Nadu is famous for its temples, classical music, and dance.",
+    wiki: "https://en.wikipedia.org/wiki/Tamil_Nadu",
+  },
+  {
+    name: "Telangana",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Master_piece_of_ramappa_temple.jpg/500px-Master_piece_of_ramappa_temple.jpg",
+    description: "Telangana is known for its rich history and culture.",
+    wiki: "https://en.wikipedia.org/wiki/Telangana",
+  },
+  {
+    name: "Tripura",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Neer-Mahal.jpg/500px-Neer-Mahal.jpg",
+    description: "Tripura is famous for its temples and natural beauty.",
+    wiki: "https://en.wikipedia.org/wiki/Tripura",
+  },
+  {
+    name: "Uttar Pradesh",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/500px-Taj_Mahal_%28Edited%29.jpeg" ,
+    description: "Uttar Pradesh is known for its historical sites, including the Taj Mahal.",
+    wiki: "https://en.wikipedia.org/wiki/Uttar_Pradesh",
+  },
+  {
+    name: "Uttarakhand",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/500px-Kedarnath_Temple_in_Rainy_season.jpg",
+    description: "Uttarakhand is famous for its mountains, rivers, and pilgrimage sites.",
+    wiki: "https://en.wikipedia.org/wiki/Uttarakhand",
+  },
+  {
+    name: "West Bengal",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Durga_Puja_-_18.jpg/330px-Durga_Puja_-_18.jpg",
+    description: "West Bengal is known for its culture, literature, and the Sundarbans.",
+    wiki: "https://en.wikipedia.org/wiki/West_Bengal",
+  },
+  // ➕ Add more states here if needed...
+];

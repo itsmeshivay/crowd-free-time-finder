@@ -1,0 +1,348 @@
+   html {
+  scroll-behavior: smooth;
+}
+   
+   
+   body.dark {
+    margin: 0;
+  padding: 0;
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.dark .speak-btn {
+  background: linear-gradient(to right, #818cf8, #a78bfa);
+}
+
+.dark .stop-btn {
+  background: linear-gradient(to right, #f87171, #ef4444);
+}
+
+.dark .download-btn {
+  background: linear-gradient(to right, #fcd34d, #f97316);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 0;
+  animation: typewriter 3s steps(30, end) forwards, blink 0.8s step-end infinite;
+}
+
+header {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #e0f2fe;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links a:hover::before {
+  transform: scaleX(1);
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #f0f9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: pulseLogo 2s infinite;
+  border: 2px solid white;
+  box-shadow: 0 0 10px #ec4899;
+}
+.animate-pageEntry {
+  animation: fadeSlide 0.8s ease, zoomIn 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .flex.items-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .typewriter {
+    font-size: 1.25rem;
+    animation: none;
+    width: auto;
+    white-space: normal;
+  }
+}
+@keyframes pulseLogo {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #ec4899;
+  }
+  50% {
+    transform: scale(1.25);
+    box-shadow: 0 0 15px #f472b6;
+  }
+}
+
+select:hover {
+  background-color: #f1f5f9;
+}
+
+select option {
+  font-weight: 500;
+  color: #374151;
+}
+
+.speak-btn,
+.stop-btn,
+.download-btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speak-btn {
+  background: linear-gradient(to right, #6366f1, #7c3aed);
+  color: #ffffff;
+}
+
+.speak-btn:hover {
+  background: linear-gradient(to right, #7c3aed, #6366f1);
+  transform: scale(1.05);
+}
+
+.stop-btn {
+  background: linear-gradient(to right, #ef4444, #b91c1c);
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.stop-btn:hover {
+  background: linear-gradient(to right, #b91c1c, #ef4444);
+  transform: scale(1.05);
+}
+
+.download-btn {
+  background: linear-gradient(to right, #facc15, #fb923c, #f87171);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.pdf-label {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.pdf-label::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #6366f1;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pdf-label:hover::after {
+  transform: translateX(0);
+}
+
+.smart-suggestion-box {
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  border-left: 6px solid #10b981;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.smart-suggestion-box h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.smart-suggestion-box ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.smart-suggestion-box li {
+  margin-bottom: 8px;
+  color: #374151;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.smart-suggestion-box li::marker {
+  color: #10b981;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.insight-box {
+  background: linear-gradient(to right, #f0f4ff, #e0f2fe);
+  border-left: 6px solid #3b82f6;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2);
+  font-weight: 500;
+  animation: fadeSlide 0.6s ease-in-out;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.charts {
+  margin-bottom: 60px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+   min-height: 420px;  
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 640px) {
+  .smart-suggestion-box,
+  .insight-box,
+  .charts {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.9);
+  }
+}
+
+.speak-btn {
+  animation: pulseGlow 2s infinite;
+}
+
+  .smart-suggestion-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .speak-btn,
+  .stop-btn,
+  .download-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
