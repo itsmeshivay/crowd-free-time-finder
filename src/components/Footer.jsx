@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import "../styles/Footer.css";
-import logo from "../assets/logo.jpg";
+import Logo from "../assets/Logo.jpg";
 import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
 
@@ -16,7 +16,7 @@ export default function Footer({ setIsLoggedIn }) {
     <footer className="custom-footer">
       <div className="footer-top">
         <div className="footer-logo">
-          <img src={logo} alt="Logo" className="logo" />
+          <img src={Logo} alt="Logo" className="logo" />
         </div>
 
         <nav className="footer-nav">

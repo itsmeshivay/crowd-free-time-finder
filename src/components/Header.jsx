@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.jpg";
+import Logo from "../assets/Logo.jpg";
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="logo" />
+        <img src={Logo} alt="Logo" className="logo" />
         <h1 className="text-2xl md:text-3xl font-extrabold typewriter">
           Crowd-Free Time Finder
         </h1>
