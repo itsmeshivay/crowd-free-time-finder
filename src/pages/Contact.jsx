@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import ContactForm from "../components/contactpage";
-import SignInSignUp from "../components/SingUp";
 import Footer from "../components/Footer";
 
 const Contact = () => {
@@ -9,7 +8,10 @@ const Contact = () => {
        <>
 
         <Header/>
-        <ContactForm/>
+
+     <div>
+           <ContactForm/>
+     </div>
        
        </>
     )

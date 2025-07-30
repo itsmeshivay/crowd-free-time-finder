@@ -5,11 +5,12 @@ import SignInSignUp from './components/SingUp';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import ContactForm from './components/contactpage';
+import Contact from './pages/Contact';
 import MapPage from './pages/MapPage';
 import Footer from './components/Footer'; // ✅ Add this
 
 import { Ion } from "cesium";
+
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -29,7 +30,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home setIsLoggedIn={setIsLoggedIn} />} />
               <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<ContactForm />} />
+             < Route path="/contact" element={<Contact />} />
               <Route path="/map" element={<MapPage />} />
             </Routes>
             <Footer setIsLoggedIn={setIsLoggedIn} /> {/* ✅ Footer with logout */}
