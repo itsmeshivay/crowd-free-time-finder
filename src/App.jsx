@@ -5,7 +5,7 @@ import SignInSignUp from './components/SingUp';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import ContactForm from './components/contactpage';
 import MapPage from './pages/MapPage';
 import Footer from './components/Footer'; // ✅ Add this
 
@@ -29,7 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home setIsLoggedIn={setIsLoggedIn} />} />
               <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/contact" element={<ContactForm />} />
               <Route path="/map" element={<MapPage />} />
             </Routes>
             <Footer setIsLoggedIn={setIsLoggedIn} /> {/* ✅ Footer with logout */}
