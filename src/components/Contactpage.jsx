@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/contactpage.css";
 
-function ContactForm() {
+function ContactPage() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -115,4 +115,4 @@ function ContactForm() {
 
 
 
-export default ContactForm;
+export default ContactPage;

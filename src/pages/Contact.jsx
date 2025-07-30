@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import ContactForm from "../components/contactpage";
 import Footer from "../components/Footer";
+import ContactPage from "../components/Contactpage";
 
 const Contact = () => {
     return (
@@ -10,7 +10,7 @@ const Contact = () => {
         <Header/>
 
      <div>
-           <ContactForm/>
+           <ContactPage/>
      </div>
        
        </>
